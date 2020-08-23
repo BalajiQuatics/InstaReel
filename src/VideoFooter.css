@@ -1,0 +1,65 @@
+.videoFooter {
+	position: relative;
+	bottom: 100px;
+	margin: 0 0 0 20px;
+}
+.videoFooter-text {
+	position: absolute;
+	bottom: 0;
+	display: flex;
+	color: #fff;
+	margin: 0 0 20px;
+}
+.videoFooter-text > h3 {
+	margin: 0 0 0 10px;
+	padding: 0 0 20px;
+}
+
+.videoFooter-text > h3 > button {
+	color: #fff;
+	font-weight: 900;
+	text-transform: inherit;
+}
+
+.videoFooter-ticker > .ticker {
+	height: fit-content;
+	margin: 0 0 20px 30px;
+	width: 60%;
+}
+
+.videoFooter-ticker h1 {
+	padding-top: 5px;
+	color: #fff;
+	font-size: 10px;
+}
+.videoFooter-icon {
+	position: absolute;
+	left: 5px;
+	color: #fff;
+}
+
+.videoFooter-actions {
+	display: flex;
+	width: 95%;
+	position: absolute;
+	margin-top: 15px;
+	justify-content: space-between;
+	color: #fff;
+}
+.videoFooter-actionsRight {
+	display: flex;
+}
+.videoFooter .MuiSvgIcon-root {
+	font-size: 17px;
+}
+.videoFooter-actionsLeft .MuiSvgIcon-root {
+	padding: 0 10px;
+}
+.videoFooter-stat {
+	display: flex;
+	align-items: center;
+	margin: 0 10px 0 0;
+}
+.videoFooter-stat > p {
+	margin: 0 0 0 3px;
+}
